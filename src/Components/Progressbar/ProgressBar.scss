@@ -1,0 +1,20 @@
+.container__progressbar {
+  width: 100%;
+  border: 1.5px solid white;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  overflow: hidden;
+
+  &-content {
+    width: 100%;
+    background-image: linear-gradient(
+      to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+  }
+}

@@ -1,0 +1,13 @@
+.container__home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  row-gap: 20px;
+  &-title {
+    h1 {
+      text-align: center;
+    }
+  }
+}
